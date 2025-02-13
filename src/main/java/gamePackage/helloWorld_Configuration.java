@@ -1,4 +1,4 @@
-package com.example.learn_spring_framework;
+package gamePackage;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Primary;
 		
 	};
 @Configuration
-public class helloWorldConfiguration {
+public class helloWorld_Configuration {
 	
 	@Bean
 	public String name() {
