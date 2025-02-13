@@ -9,10 +9,12 @@ public class AppGamingBasicJava {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//var marioGame = new MarioGame();
-		var supercontra = new SuperContraGame();
-		//var gameRunner = new GameRunner(supercontra);
-		var gameRunner = new GameRunner(supercontra);
+		//obj of ind game class
+		var game = new MarioGame();
+		//var game = new SuperContraGame();
+		
+		//for running game runner
+		var gameRunner = new GameRunner(game);
 		gameRunner.run();
 		
 

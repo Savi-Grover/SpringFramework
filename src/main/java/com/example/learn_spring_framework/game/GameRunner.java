@@ -3,7 +3,9 @@ package com.example.learn_spring_framework.game;
 public class GameRunner {
 
 	//private MarioGame game;
-	private SuperContraGame game;
+	//private SuperContraGame game;
+	private GamingConsole game;
+	
 
 //	public GameRunner(MarioGame game) {
 //		// TODO Auto-generated constructor stub
@@ -11,7 +13,14 @@ public class GameRunner {
 //		
 //	}
 	
-	public GameRunner(SuperContraGame game) {
+	/*
+	 * public GameRunner(SuperContraGame game) { // TODO Auto-generated constructor
+	 * stub this.game = game;
+	 * 
+	 * }
+	 */
+	
+	public GameRunner(GamingConsole game) {
 		// TODO Auto-generated constructor stub
 		this.game = game;
 		
